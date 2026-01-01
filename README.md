@@ -203,7 +203,3 @@ npm run preview   # Preview production build
 5. **Three Sample Topics**: Vitamins, Software Architecture, Machine Learning
 
 ---
-
-## 👨‍💻 Author
-
-Built for the Frontend Development Internship Assignment.

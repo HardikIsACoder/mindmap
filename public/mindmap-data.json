@@ -1,0 +1,331 @@
+{
+    "vitamins": {
+        "id": "vitamins-root",
+        "title": "Vitamins in Human Body",
+        "summary": "Essential micronutrients required for normal metabolic function, growth, and overall health, typically obtained through diet. They are vital for diverse bodily processes, including energy production, immune defense, and cellular repair, playing a crucial role in preventing various diseases and maintaining overall well-being.",
+        "metadata": {
+            "category": "Health & Nutrition",
+            "lastUpdated": "2026-01-01"
+        },
+        "children": [
+            {
+                "id": "dietary-sources",
+                "title": "Dietary Sources",
+                "summary": "Various food sources that provide essential vitamins to the body. A balanced diet rich in diverse foods ensures adequate vitamin intake for optimal health.",
+                "children": [
+                    {
+                        "id": "fruits-vegetables",
+                        "title": "Fruits & Vegetables",
+                        "summary": "Fresh produce like citrus fruits, leafy greens, and colorful vegetables are excellent sources of vitamins A, C, K, and folate."
+                    },
+                    {
+                        "id": "meat-dairy",
+                        "title": "Meat & Dairy",
+                        "summary": "Animal products including meat, fish, eggs, and dairy are primary sources of B-complex vitamins, especially B12, and vitamin D."
+                    },
+                    {
+                        "id": "grains-nuts",
+                        "title": "Grains & Nuts",
+                        "summary": "Whole grains, nuts, and seeds provide vitamin E, B vitamins (thiamin, niacin), and other essential nutrients."
+                    },
+                    {
+                        "id": "sunlight-fortified",
+                        "title": "Sunlight & Fortified",
+                        "summary": "Vitamin D is synthesized through sun exposure, while many foods are fortified with vitamins A, D, and B12."
+                    }
+                ]
+            },
+            {
+                "id": "health-impact",
+                "title": "Health Impact & Balance",
+                "summary": "Maintaining adequate vitamin levels is crucial, as both deficiencies (hypovitaminosis) and excesses (hypervitaminosis) can lead to health problems. These imbalances can manifest in a range of symptoms and conditions, significantly affecting long-term health and quality of life if not addressed.",
+                "children": [
+                    {
+                        "id": "deficiency",
+                        "title": "Deficiency",
+                        "summary": "Vitamin deficiencies can cause serious health issues: scurvy (Vitamin C), rickets (Vitamin D), beriberi (B1), and night blindness (Vitamin A)."
+                    },
+                    {
+                        "id": "excess",
+                        "title": "Excess",
+                        "summary": "Hypervitaminosis, especially with fat-soluble vitamins (A, D, E, K), can be toxic and cause symptoms ranging from nausea to organ damage."
+                    }
+                ]
+            },
+            {
+                "id": "key-bodily-roles",
+                "title": "Key Bodily Roles",
+                "summary": "Vitamins serve as cofactors for enzymes, antioxidants, and regulators of gene expression, playing essential roles in numerous physiological processes.",
+                "children": [
+                    {
+                        "id": "bone-health",
+                        "title": "Bone Health",
+                        "summary": "Vitamins D and K work together with calcium to maintain strong bones and prevent osteoporosis."
+                    },
+                    {
+                        "id": "immune-support",
+                        "title": "Immune System Support",
+                        "summary": "Vitamins A, C, D, and E support immune function, helping the body fight infections and diseases."
+                    },
+                    {
+                        "id": "energy-metabolism",
+                        "title": "Energy Metabolism",
+                        "summary": "B-complex vitamins are crucial for converting food into energy, supporting cellular metabolism and ATP production."
+                    },
+                    {
+                        "id": "antioxidant-protection",
+                        "title": "Antioxidant Protection",
+                        "summary": "Vitamins C and E act as antioxidants, neutralizing free radicals and protecting cells from oxidative damage."
+                    }
+                ]
+            },
+            {
+                "id": "vitamin-classification",
+                "title": "Vitamin Classification",
+                "summary": "Vitamins are primarily classified based on their solubility in fats or water, which dictates their absorption, storage, and excretion mechanisms in the body. This fundamental distinction influences dietary intake recommendations, potential for toxicity, and how they are utilized by different physiological systems.",
+                "children": [
+                    {
+                        "id": "fat-soluble",
+                        "title": "Fat-Soluble Vitamins",
+                        "summary": "Vitamins A, D, E, and K are fat-soluble, stored in liver and fatty tissues. They require dietary fat for absorption and can accumulate to toxic levels.",
+                        "children": [
+                            {
+                                "id": "vitamin-a",
+                                "title": "Vitamin A",
+                                "summary": "Essential for vision, immune function, and skin health. Found in liver, carrots, and sweet potatoes."
+                            },
+                            {
+                                "id": "vitamin-d",
+                                "title": "Vitamin D",
+                                "summary": "The 'sunshine vitamin' crucial for calcium absorption and bone health. Synthesized in skin upon UV exposure."
+                            },
+                            {
+                                "id": "vitamin-e",
+                                "title": "Vitamin E",
+                                "summary": "A powerful antioxidant that protects cell membranes. Found in nuts, seeds, and vegetable oils."
+                            },
+                            {
+                                "id": "vitamin-k",
+                                "title": "Vitamin K",
+                                "summary": "Essential for blood clotting and bone metabolism. Found in leafy greens and fermented foods."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "water-soluble",
+                        "title": "Water-Soluble Vitamins",
+                        "summary": "B-complex vitamins and Vitamin C dissolve in water, are not stored long-term, and excess is excreted through urine. Regular intake is essential.",
+                        "children": [
+                            {
+                                "id": "vitamin-c",
+                                "title": "Vitamin C",
+                                "summary": "Critical for collagen synthesis, immune function, and iron absorption. Found abundantly in citrus fruits and berries."
+                            },
+                            {
+                                "id": "b-complex",
+                                "title": "B-Complex Vitamins",
+                                "summary": "Eight B vitamins (B1-B12) that work together in energy metabolism, nervous system function, and red blood cell formation."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "software-architecture": {
+        "id": "software-root",
+        "title": "Software Architecture Patterns",
+        "summary": "Fundamental approaches to organizing software systems that have stood the test of time. These patterns provide templates for solving common architectural problems and help create maintainable, scalable applications.",
+        "metadata": {
+            "category": "Technology",
+            "lastUpdated": "2026-01-01"
+        },
+        "children": [
+            {
+                "id": "monolithic",
+                "title": "Monolithic Architecture",
+                "summary": "A traditional unified model where all components are interconnected and interdependent, deployed as a single unit.",
+                "children": [
+                    {
+                        "id": "layered",
+                        "title": "Layered Pattern",
+                        "summary": "Organizes code into horizontal layers (presentation, business, data) with each layer only communicating with adjacent layers."
+                    },
+                    {
+                        "id": "mvc",
+                        "title": "MVC Pattern",
+                        "summary": "Model-View-Controller separates data, presentation, and user input handling into three interconnected components."
+                    }
+                ]
+            },
+            {
+                "id": "distributed",
+                "title": "Distributed Architecture",
+                "summary": "Systems where components are spread across multiple computers, communicating over a network to achieve common goals.",
+                "children": [
+                    {
+                        "id": "microservices",
+                        "title": "Microservices",
+                        "summary": "Decomposes applications into small, independent services that communicate via APIs, each deployable separately.",
+                        "children": [
+                            {
+                                "id": "api-gateway",
+                                "title": "API Gateway",
+                                "summary": "A single entry point that routes requests to appropriate microservices, handling cross-cutting concerns."
+                            },
+                            {
+                                "id": "service-mesh",
+                                "title": "Service Mesh",
+                                "summary": "Infrastructure layer handling service-to-service communication with features like load balancing and encryption."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "event-driven",
+                        "title": "Event-Driven",
+                        "summary": "Components communicate through events, enabling loose coupling and real-time responsiveness.",
+                        "children": [
+                            {
+                                "id": "pub-sub",
+                                "title": "Pub/Sub Pattern",
+                                "summary": "Publishers emit events to topics; subscribers receive events they're interested in without direct coupling."
+                            },
+                            {
+                                "id": "event-sourcing",
+                                "title": "Event Sourcing",
+                                "summary": "State changes are stored as a sequence of events, enabling full audit trails and temporal queries."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "serverless",
+                "title": "Serverless Architecture",
+                "summary": "Cloud-native approach where the cloud provider manages infrastructure, and developers focus purely on code.",
+                "children": [
+                    {
+                        "id": "faas",
+                        "title": "Functions as a Service",
+                        "summary": "Individual functions triggered by events, automatically scaled and billed per execution."
+                    },
+                    {
+                        "id": "baas",
+                        "title": "Backend as a Service",
+                        "summary": "Pre-built backend services like authentication, databases, and storage accessed via APIs."
+                    }
+                ]
+            }
+        ]
+    },
+    "machine-learning": {
+        "id": "ml-root",
+        "title": "Machine Learning Fundamentals",
+        "summary": "A branch of artificial intelligence enabling systems to learn from data, identify patterns, and make decisions with minimal human intervention. ML powers everything from recommendation systems to autonomous vehicles.",
+        "metadata": {
+            "category": "Technology",
+            "lastUpdated": "2026-01-01"
+        },
+        "children": [
+            {
+                "id": "supervised",
+                "title": "Supervised Learning",
+                "summary": "Learning from labeled training data to make predictions on unseen data. The algorithm learns a mapping function from input to output.",
+                "children": [
+                    {
+                        "id": "classification",
+                        "title": "Classification",
+                        "summary": "Predicting discrete categories or classes. Examples include spam detection, image recognition, and medical diagnosis.",
+                        "children": [
+                            {
+                                "id": "decision-trees",
+                                "title": "Decision Trees",
+                                "summary": "Tree-structured models that split data based on feature values, easy to interpret and visualize."
+                            },
+                            {
+                                "id": "neural-networks",
+                                "title": "Neural Networks",
+                                "summary": "Layered networks of artificial neurons that can learn complex patterns through backpropagation."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "regression",
+                        "title": "Regression",
+                        "summary": "Predicting continuous numerical values. Used for price prediction, demand forecasting, and trend analysis.",
+                        "children": [
+                            {
+                                "id": "linear-regression",
+                                "title": "Linear Regression",
+                                "summary": "Fits a linear relationship between features and target variable. Simple, interpretable, and fast."
+                            },
+                            {
+                                "id": "polynomial",
+                                "title": "Polynomial Regression",
+                                "summary": "Captures non-linear relationships by adding polynomial terms to the feature set."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "unsupervised",
+                "title": "Unsupervised Learning",
+                "summary": "Discovering hidden patterns in unlabeled data without explicit guidance on what to look for.",
+                "children": [
+                    {
+                        "id": "clustering",
+                        "title": "Clustering",
+                        "summary": "Grouping similar data points together. Used for customer segmentation, anomaly detection, and data compression.",
+                        "children": [
+                            {
+                                "id": "k-means",
+                                "title": "K-Means",
+                                "summary": "Partitions data into K clusters by minimizing within-cluster variance. Fast and scalable."
+                            },
+                            {
+                                "id": "hierarchical",
+                                "title": "Hierarchical Clustering",
+                                "summary": "Creates a tree of clusters through successive merging or splitting, no need to specify K."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "dimensionality",
+                        "title": "Dimensionality Reduction",
+                        "summary": "Reducing the number of features while preserving important information for visualization and efficiency.",
+                        "children": [
+                            {
+                                "id": "pca",
+                                "title": "PCA",
+                                "summary": "Principal Component Analysis finds orthogonal directions of maximum variance in the data."
+                            },
+                            {
+                                "id": "tsne",
+                                "title": "t-SNE",
+                                "summary": "Preserves local structure for visualization of high-dimensional data in 2D or 3D."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "reinforcement",
+                "title": "Reinforcement Learning",
+                "summary": "Learning through interaction with an environment, receiving rewards or penalties for actions taken.",
+                "children": [
+                    {
+                        "id": "q-learning",
+                        "title": "Q-Learning",
+                        "summary": "Model-free algorithm that learns action-value functions to find optimal policies."
+                    },
+                    {
+                        "id": "policy-gradient",
+                        "title": "Policy Gradient",
+                        "summary": "Directly optimizes the policy by following gradients of expected reward."
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Then open http://localhost:5173 in your browser.
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
@@ -19,22 +19,22 @@ Then open http://localhost:5173 in your browser.
 
 | Feature                   | Status | Description                                                       |
 | ------------------------- | ------ | ----------------------------------------------------------------- |
-| **Mindmap Visualization** | ✅     | Hierarchical graph with nodes and connections                     |
-| **Data-Driven Rendering** | ✅     | Fully generated from JSON - change data, UI updates automatically |
-| **Hover Interactions**    | ✅     | Tooltips showing title, summary, and action hints                 |
-| **Click Interactions**    | ✅     | Select nodes, expand/collapse children                            |
-| **Side Panel**            | ✅     | Detailed view with summary, metadata, and children list           |
-| **Node Editing**          | ✅     | Inline edit for title and summary                                 |
-| **Expand/Collapse All**   | ✅     | Toolbar buttons to show/hide entire tree                          |
-| **Drill Down/Up**         | ✅     | Focus on subtrees with navigation                                 |
-| **Fit to View**           | ✅     | Auto-center and scale the mindmap                                 |
-| **Add Node**              | ✅     | Modal to add new child nodes                                      |
-| **Multiple Topics**       | ✅     | Switch between different mindmap datasets                         |
+| **Mindmap Visualization** | ✅      | Hierarchical graph with nodes and connections                     |
+| **Data-Driven Rendering** | ✅      | Fully generated from JSON - change data, UI updates automatically |
+| **Hover Interactions**    | ✅      | Tooltips showing title, summary, and action hints                 |
+| **Click Interactions**    | ✅      | Select nodes, expand/collapse children                            |
+| **Side Panel**            | ✅      | Detailed view with summary, metadata, and children list           |
+| **Node Editing**          | ✅      | Inline edit for title and summary                                 |
+| **Expand/Collapse All**   | ✅      | Toolbar buttons to show/hide entire tree                          |
+| **Drill Down/Up**         | ✅      | Focus on subtrees with navigation                                 |
+| **Fit to View**           | ✅      | Auto-center and scale the mindmap                                 |
+| **Add Node**              | ✅      | Modal to add new child nodes                                      |
+| **Multiple Topics**       | ✅      | Switch between different mindmap datasets                         |
 
 ### 🎁 Bonus Features
 
-| Feature               | Status                  |
-| --------------------- | ----------------------- |
+| Feature               | Status                 |
+| --------------------- | ---------------------- |
 | **Download/Export**   | ✅ Export as JSON       |
 | **Smooth Animations** | ✅ D3 force simulation  |
 | **Zoom Controls**     | ✅ Zoom in/out + scroll |
@@ -125,10 +125,10 @@ Edit `public/mindmap-data.json`:
 
 ### Updating the Mindmap
 
-- **Add a node**: Add object to `children` array
-- **Edit text**: Change `title` or `summary`
-- **Add a topic**: Add new key to root object
-- **Restructure**: Move nodes between parents
+* **Add a node**: Add object to `children` array
+* **Edit text**: Change `title` or `summary`
+* **Add a topic**: Add new key to root object
+* **Restructure**: Move nodes between parents
 
 UI updates automatically after refresh.
 
@@ -164,7 +164,19 @@ UI updates automatically after refresh.
 
 ## 🎥 Demo Video
 
-[Link to demo video - to be added]
+📹 **Full Project Walkthrough & Feature Demonstration**
+👉 [https://drive.google.com/file/d/1iKBZqsmgjW1HjaojeASPccNzv1gfvtoA/view](https://drive.google.com/file/d/1iKBZqsmgjW1HjaojeASPccNzv1gfvtoA/view)
+
+The video demonstrates:
+
+* Initial mindmap rendering
+* Expand / collapse interactions
+* Hover tooltips
+* Node selection & side panel updates
+* Editing node content
+* Adding new nodes
+* Topic switching
+* Fit-to-view and zoom interactions
 
 ---
 
@@ -172,7 +184,7 @@ UI updates automatically after refresh.
 
 ### Prerequisites
 
-- Node.js 16+
+* Node.js 16+
 
 ### Commands
 
@@ -201,5 +213,3 @@ npm run preview   # Preview production build
 3. **Single Selection**: One node selected at a time
 4. **Memory-only Persistence**: Edits stored in memory (production would use backend)
 5. **Three Sample Topics**: Vitamins, Software Architecture, Machine Learning
-
----
